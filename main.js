@@ -17,7 +17,7 @@ function addItem(state, item) {
 }
 
 //Next a function that deletes items once checked 
-
+//Deletes one item from the state starting from [0]
 function deleteItem() {
     state.splice(0, 1);
 }
